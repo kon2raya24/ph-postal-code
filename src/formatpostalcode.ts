@@ -1,3 +1,6 @@
+
+// Type exports for consumers
+// Add specific types as needed
 export function formatPostalCode(code: string): string {
   const cleaned = code.replace(/[^0-9]/g, "");
   if (cleaned.length > 4) throw new Error("Postal code must be 4 digits");
