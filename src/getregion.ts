@@ -1,6 +1,10 @@
 
 // Type exports for consumers
 // Add specific types as needed
+/**
+ * getRegion
+ * @param code
+ */
 export function getRegion(code: string): string {
   const prefix = parseInt(code.slice(0, 2));
   if (prefix >= 0 && prefix <= 9) return "Metro Manila";
