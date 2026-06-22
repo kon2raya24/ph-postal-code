@@ -20,3 +20,11 @@ npm install ph-postal-code
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'ph-postal-code';
+// See API section for available functions
+```
